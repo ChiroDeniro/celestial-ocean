@@ -65,16 +65,3 @@ with col2:
     st.metric("🌊 Waves", f"{wave_height:.1f}")
 
 st.caption("🌊 Built with Streamlit")
-```
-
-5. **Click** "Commit new file"
-
-6. **Repeat for** `requirements.txt`:
-   - Add file → Create new file
-   - Name: `requirements.txt`
-   - Content:
-```
-streamlit>=1.28.0
-plotly>=5.17.0
-numpy>=1.24.0
-pandas>=2.0.0
